@@ -2,14 +2,15 @@
 .title-bar{
   height: 70px;
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .title-image{
-  height: 170px;
+  height: 120px;
   width: 100%;
   cursor: pointer;
+  margin-bottom: 0px;
 }
 .title-text {
   padding-left: 90px;
@@ -20,7 +21,7 @@
 .grid-container{
   display: grid;
   grid-template-columns: 130px 1fr 1fr;
-  margin-top: 130px;
+  margin-top: 70px;
 }
 .code-image-container{
   height: 150px;
@@ -157,11 +158,12 @@
   color: rgb(136, 153, 166);
 }
 .code-image{
-  height: 870px;
+  height: 910px;
   width: 100%;
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 .homepage-text{
   margin-top: 10px;
@@ -170,7 +172,7 @@
   color: rgb(240, 240, 240);
   font-size: larger;
   font-family: 'Rubik' ,sans-serif;
-  line-height: 50px;
+  line-height: 45px;
 }
 .sub-text{
   margin-top: 0px;

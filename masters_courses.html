@@ -1,6 +1,119 @@
 <!Doctype html>
 <head>
   <title>MSc/MPhil</title>
+  <link rel="stylesheet" href="website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+<style>
+  .course-grid-container{
+        display: grid;
+        grid-template-columns: 130px 1fr 1fr;
+        margin-top: 90px;
+  }
+  .MSc-CS-header{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(240, 240, 240);
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .first-semester-header{
+    font-family: 'Agdasima', sans-serif;
+    font-size: 22px;
+    color: rgb(240, 240, 240);
+  }
+  .second-semester-header{
+    font-family: 'Agdasima', sans-serif;
+    font-size: 22px;
+    color: rgb(240, 240, 240);
+  }
+  .MSc-course-catalog{
+    color: rgb(245, 245, 245);
+    font-family: 'Rubik', sans-serif,cursive;
+    font: medium;
+    line-height: 35px;
+    background-color: rgb(99, 109, 117);
+    border-radius: 15px;
+    padding-left: 15px;
+  }
+  .first-semester-grid{
+    margin-right: 30px;
+  }
+  .second-semester-grid{
+    margin-right: 20px;
+  }
+  .side-bar{
+    margin-top: 90px;
+  }
+  .electives-header{
+    font-family: cursive;
+    font: bolder;
+    color:rgb(240, 240, 240);
+  }
+</style>
 </head>
-<body></body>
+<body style="background-color: rgb(25, 39, 52);">
+  <div class="title-bar">
+    <div>
+  <a href="homepage.html"><img class="title-image" src="WhatsApp_Image_2023-11-19_at_12.15.28_d6423a53-removebg-preview.png"></a>
+    </div>
+    <div></div> 
+    </div>
+    <div class="course-grid-container">
+      <div class="side-bar">
+        <button class="admission-button">Admission</button>
+      <a href="courses.html"> <button class="courses-button">Courses</button></a>
+        <button class="events-button">Events</button>
+      <a href="about.html"><button class="about-button">About</button></a>
+        <button class="staff-button">Staff</button>
+        <button class="location-button">Location</button>
+      <a href="contact.html"><button class="contact-button">Contact Us</button></a>
+      </div>
+      <div class="first-semester-grid">
+        <span class="MSc-CS-header">MSc. Computer Science</span><br><br><br>
+        <span class="first-semester-header">First Semester</span>
+        <p class="MSc-course-catalog">
+          CSCD 607: Research Methods<br>
+          CSCD 603: Advanced Data Structures and Algorithms<br>
+          CSCD 609: Principles of Wireless and Mobile Systems
+        </p>
+        <span class="electives-header">Electives</span>
+        <p class="MSc-course-catalog">
+          CSCD 607: Advanced Computer Networks<br>
+          CSCD 611: Advanced Database Systems<br>
+          CPEN 641: Advanced Operating Systems<br>
+          CPEN 637: Human Computer Interaction
+        </p>
+      </div>
+      <div class="second-semester-grid">
+        <br><br><br><br>
+        <span class="second-semester-header">Second Semester</span>
+        <p class="MSc-course-catalog">
+          CSCD 602: Advanced Software Engineering<br>
+          CSCD 604: Distributed Systems<br> 
+          CSCD 610: Seminar &#8544;<br>
+          CSCD 612: Intelligent Systems
+        </p>
+        <span class="electives-header">Electives</span>
+        <p class="MSc-course-catalog">
+          CSCD 606: Bioinformatics<br>
+          CSCD 608: Advanced Computer Vision<br>
+          CSCD 614: Wireless Systems Design<br>
+          CSCD 656: Networks Security<br>
+          MATH 652: Computational Mathematics<br>
+          CSCD 600: MSc Dissertation
+        </p>
+      </div>
+      </div>
+</body>
 </html>
