@@ -36,6 +36,11 @@ Courses: This webpage provides an overview of the courses the department has to 
 
 Staff: This webpage displays the contact cards of the faculty in the department.
 
+All pages contain a sidebar which links you to other pages and makes navigation easier.
+The sidebar contains buttons: Admission, Staff, Events, Courses, and contact us.
+These buttons direct you to the respective webpages
+The buttons change color when you're active on the particular webpage the button directed you to.
+
 
 ## How to clone and set up the project.
 To run this project locally, ensure you have the following:
@@ -54,7 +59,7 @@ Open in a Code Editor:
 Use your preferred code editor to open the project files (index.html, style.css, etc.).
 
 Run the Website:
-Open the index.html file in your web browser to view the website locally. You can simply double-click the file to open it in the default browser.
+Open the homepage.html file in your web browser to view the website locally. You can simply double-click the file to open it in the default browser.
 
 ## Name and Student ID
 Nathaniel Ofosu-Ansah Addo
@@ -76,7 +81,7 @@ Styling and formatting content using CSS properties and selectors
 Implementing navigation menus, forms, and other web components.
 
 
-## Screenshots
+## Screenshots of the webpages
 ![homepage](homepage_screenshot.jpeg)
 ![short courses](shortcourses_screenshot.jpeg)
 ![Courses](courses_screenshot.jpeg)
@@ -86,3 +91,4 @@ Implementing navigation menus, forms, and other web components.
 ![Undergraduate courses](undergradcourses_screenshot.jpeg)
 ![Contact Us](contact_screenshot.jpeg)
 ![Events](events_screenshot.jpeg)
+[Staff]](staff_screenshot.jpeg)
